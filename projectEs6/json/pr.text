@@ -1,0 +1,91 @@
+ [
+    {
+      "id": 1,
+      "name": "Stylish Women's Dress",
+      "description": "Elegant and comfortable dress for any occasion.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w5.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Casual Summer Dress",
+      "description": "Lightweight and breathable summer dress.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w6.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Chic Floral Dress",
+      "description": "Floral print dress with a modern touch.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w7.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Classic Black Dress",
+      "description": "Timeless black dress for formal events.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w8.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Bohemian Style Dress",
+      "description": "Boho-chic dress with unique patterns.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w9.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Casual Denim Dress",
+      "description": "Stylish denim dress for daily wear.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w11.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Elegant Evening Gown",
+      "description": "Perfect gown for special occasions.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w12.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Vintage Inspired Dress",
+      "description": "Retro-style dress with a modern twist.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w14.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Comfortable Casual Dress",
+      "description": "Soft and comfy dress for everyday wear.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w15.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Trendy Midi Dress",
+      "description": "Fashionable midi dress for all seasons.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w16.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Casual Striped Dress",
+      "description": "Stylish striped dress for a relaxed look.",
+      "category": "clothes women",
+      "price": 29.99,
+      "image": "../imgs/women/w17.jpeg"
+    }
+  ]
+  

@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    overflow-x: hidden !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+
+.container {
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+
+
+
+/* ================== */
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+nav,h4{
+    font-family: 'Pacifico', cursive;
+}
+
+@font-face {
+    font-family: 'Pacifico' ;
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+nav {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+ul {
+    flex-wrap: wrap; 
+}
+
+
+
+/* ============================== */
+
+@media (max-width:768px) {
+    .d-flex {
+        gap: 0.5rem !important; 
+    }
+}
+@media (max-width: 992px) {
+    #navPerson {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    #navPerson ul {
+        flex-direction: column !important;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #navPerson li {
+        padding: 2;
+       
+    }
+   
+    .menue-toggle {
+        display: block;
+    }
+}
+
+@media (min-width: 993px) {
+    #navPerson {
+        display: flex !important;
+    }
+
+    .menue-toggle {
+        display: none;
+    }
+}
+/* ============================== */
+.slider img {
+    height: 500px !important;
+    max-width: 70%;
+    height: auto;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8rem !important;
+}
+
+
+/* ======================== sections ================== */
+.section img{
+    width: 250px;
+}
+
+
+
+img {
+    max-width: 100%; 
+    height: 200px !important;
+    min-width: 200px;
+}
+
+
+/* ========================== card ============ */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.img-container {
+    overflow: hidden; 
+}
+
+.img-container img {
+    object-fit: cover !important;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease-in-out; 
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+.card-body a i {
+    font-size: 1.5rem !important;
+    color: rgb(67, 64, 64) !important;
+}
+
+.card .card-title {
+    color:blue !important;
+}
+.card .card-title:hover {
+    color:white !important;
+}
+
+
+/* footer */
+footer a, .navbar a {
+    text-decoration: none;
+    color: black;
+  }
+  footer {
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+ 

@@ -1,0 +1,3232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+  <body>
+    <nav class="mb-5 fixed-top bg-white">
+      <div
+        class="container-fluid container-md d-flex align-items-center justify-content-between h-75"
+      >
+        <div class="nav-links">
+          <ul
+            class="d-flex justify-content-between gap-2 gap-md-5 align-items-center"
+          >
+            <li>
+              <a href="#" class="text-dark fs-1 fw-medium pe-5">Defacto</a>
+            </li>
+            <li>
+              <a href="#" class="fs-4 fw-lighter text-capitalize">home</a>
+            </li>
+            <li>
+              <a href="#" class="fs-4 fw-lighter text-capitalize">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-none d-lg-block" id="navPerson">
+          <ul
+            class="d-flex justify-content-between gap-5 align-items-center"
+            id="ulNavPerson"
+          >
+            <li>
+              <a href="../login/login.html"
+                ><i class="bi bi-person fs-4"></i
+                ><span class="ps-2">Login</span></a
+              >
+              <a href="../register/register.html">/Register</a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="bi bi-heart fs-4"></i
+                ><span class="ps-2">Favorite</span></a
+              >
+            </li>
+            <li>
+              <a href="../cart/cart.html"
+                ><i class="bi bi-cart fs-4"></i
+                ><span class="ps-2"> Shopping Cart</span></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="menue-toggle border-0 bg-transparent d-lg-none"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list fs-1"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- slider ==========================================-->
+    <div class="container-fluid slider gap-5 pt-3 pb-5 mt-5">
+      <div
+        class="w-100 d-flex justify-content-between align-items-center gap-4"
+      >
+        <button class="border-0 fs-4 bg-transparent" id="clickLeft">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <img
+          src="../imgs/slider/7.jpeg"
+          alt=""
+          class="w-100 img-fluid h-100"
+          id="sliderImg"
+        />
+        <button class="border-0 fs-4 bg-transparent" id="clickRight">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- sections ==================== -->
+    <div class="container-fluid container-md p-3">
+      <h4 class="text-center pb-4">Trending Now</h4>
+      <div class="d-flex align-items-center justify-content-center gap-3 mb-4">
+        <button
+          class="btn rounded-pill fw-bold text-light btnSection"
+          style="background-color: rgb(230, 43, 43)"
+        >
+          For You
+        </button>
+        <button class="btn btn-outline-primary rounded-pill btnSection">
+          Women
+        </button>
+        <button class="btn btn-outline-primary rounded-pill btnSection">
+          Men
+        </button>
+        <button class="btn btn-outline-primary rounded-pill btnSection">
+          Kids
+        </button>
+        <button class="btn btn-outline-primary rounded-pill btnSection">
+          Home
+        </button>
+      </div>
+
+      <section class="sectionForYou row">
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/1.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="1"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w5.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="17"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w6.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="18"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w7.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="19"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/11.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="3"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/22.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="4"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/55.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="5"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/5.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="44"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/7.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="45"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/8.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="46"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/9.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="47"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/10.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="48"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/11.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="49"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/men/17352991428953a1a752359783eea6d361224993f8_thumbnail_600x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="50"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/2.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="56"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/3.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="57"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/4.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="58"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/5.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="59"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1698743161e9ffc75906a232f15c356a2bfa004778_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="68"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1701587280add32c95ebd0d6a90a098971f5a3fe67_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="69"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1702275547124cda1146102748fac0570fc91a15bc_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="70"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/170433528620edcf6f4194a390d3d8e5d16a367500_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="71"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1709007420e13825ee481a076300928ab263c8b8a6_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="72"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/17092748752a1bfc03a7e22d199183d9bfd9bd47e3_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="73"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- <div class="col-6 col-md-4 col-lg-2 mb-4 content1 ">
+      <div class="card border-0">
+        <div class="img-container">
+          <img src="../imgs/kitchen/1710340784297b3cd83ef5c1177d1a9c6edf512aee_square_thumbnail_192x.webp" alt="" class="img-fluid">
+          </div>
+  
+      <div class="card-body d-flex flex-column">
+      <div class="d-flex justify-content-between">
+      <p class="card-text">$29.99</p>
+      <a href="#" class="" data-bs-toggle="tooltip" data-bs-title="Add To Cart" >
+      <i class="bi bi-plus"></i>
+      </a>
+      </div>
+      <p class="card-title text-muted btn btn-outline-primary" data-id="74">View Details</p>
+  
+      </div>
+      </div>
+      </div>
+      <!-- ----------------------------- -->
+
+        <!-- ----------------------------- -->
+      </section>
+
+      <!-- =============section women  ===================-->
+      <section class="sectionWomen row">
+        <h4 class="text-center pb-4">Section Women</h4>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/1.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="1"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/1=1.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="2"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/11.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="3"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/22.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="4"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/55.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="5"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/66.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="6"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/99.jpg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="7"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/women/1723639317ccf35b0a26c3b09d6bcb31c4b065654c_thumbnail_200x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="8"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/women/17304270674c6b1d52d7107e1a61020deed59defc1_thumbnail_200x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="9"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/women/17315524728566542d4acda88bfdcd80032a63477f_thumbnail_600x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="10"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/women/1732690797eeb9a07669dee7e2ee362a2d7b99ad8d_thumbnail_600x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="../details/details.html"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="11"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/download.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="12"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w1.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="13"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w2.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="14"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w3.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="15"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w4.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="16"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w5.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="17"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w6.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="18"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w7.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="19"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w8.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="20"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w9.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="21"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w11.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="22"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w12.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="13"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w14.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="24"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================== -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w15.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="25"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w16.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="26"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w17.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="27"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w18.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="28"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w19.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="29"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w20.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="30"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ====================== -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w21.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="31"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w22.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="32"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w23.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="33"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w24.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="34"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w25.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="35"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w26.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="36"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ============================= -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w27.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="37"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w28.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="38"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w29.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="39"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w30.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="40"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w31.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="41"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/women/w33.jpeg" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="42"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========================================== -->
+      <!-- =============section men  ===================-->
+      <section class="sectionMen row">
+        <h4 class="text-center pb-4">Section men</h4>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/1.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="43"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/5.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="44"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/7.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="45"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/8.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="46"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/9.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="47"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/10.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="48"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/11.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="49"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/men/17352991428953a1a752359783eea6d361224993f8_thumbnail_600x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="50"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/men/173771749485ad51037bb879f2ae881a9865e630f6_thumbnail_600x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="51"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/m2.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="52"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/m3.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="53"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/men/m4.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="54"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =============section kids  ===================-->
+      <section class="sectionKids row">
+        <h4 class="text-center pb-4">Section Kids</h4>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/1.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="55"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/2.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="56"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/3.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="57"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/4.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="58"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/5.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="59"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/6.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="60"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/7.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="61"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/8.webp" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="62"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/12.png" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="63"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/13.png" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="64"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/14.png" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="65"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img src="../imgs/kide/15.png" alt="" class="img-fluid" />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="66"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================= KItchen ========================== -->
+      <section class="sectionHome row">
+        <h4 class="text-center pb-4">Section Home</h4>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/16945899073dc772c3e57d853cf02d696072113df5_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="67"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1698743161e9ffc75906a232f15c356a2bfa004778_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="68"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------------------- -->
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1701587280add32c95ebd0d6a90a098971f5a3fe67_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="69"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1702275547124cda1146102748fac0570fc91a15bc_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="70"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/170433528620edcf6f4194a390d3d8e5d16a367500_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="71"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1709007420e13825ee481a076300928ab263c8b8a6_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="72"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/17092748752a1bfc03a7e22d199183d9bfd9bd47e3_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="73"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1710340784297b3cd83ef5c1177d1a9c6edf512aee_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="74"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1710384676021ef92feee235cadc30e06dc11de6a4_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="75"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/171876727846f6633f18df456f3cc3349a1d62810e_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="76"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/1715492886aab30eb6c9280f7974016ce2c87edf65_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="77"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------- -->
+        <div class="col-6 col-md-4 col-lg-2 mb-4 content1">
+          <div class="card border-0">
+            <div class="img-container">
+              <img
+                src="../imgs/kitchen/17236079069ff0de5d262744ecd6bd66bd025657d9_square_thumbnail_192x.webp"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <p class="card-text">$29.99</p>
+                <a
+                  href="#"
+                  class=""
+                  data-bs-toggle="tooltip"
+                  data-bs-title="Add To Cart"
+                >
+                  <i class="bi bi-plus"></i>
+                </a>
+              </div>
+              <p
+                class="card-title text-muted btn btn-outline-primary"
+                data-id="78"
+              >
+                View Details
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========================================== -->
+    </div>
+    <!-- ----------------------------- -->
+    <!-- ================ footer ===================== -->
+    <footer class="bg-body-tertiary text-black mt-5 py-4">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>Customer service</h5>
+            <a href="tel:+201032129952" target="_blank">Phone</a><br />
+            <a href="mailto:amr.ahmed11922911@gmail.com" target="_blank"
+              >Email</a
+            ><br />
+            <a href="https://wa.me//+201032129952" target="_blank" id="whatsapp"
+              >Whatsapp</a
+            ><br />
+          </div>
+          <div class="col-sm-6">
+            <h5>Our stores</h5>
+            <a href="https://www.google.com/maps?q=Cairo,Egypt" target="_blank"
+              >Cairo</a
+            ><br />
+            <a href="https://www.google.com/maps?q=Alex,Egypt" target="_blank"
+              >Alex</a
+            ><br />
+            <a
+              href="https://www.google.com/maps?q=Menofia,Egypt"
+              target="_blank"
+              >Menofia</a
+            ><br />
+          </div>
+        </div>
+        <hr class="my-3" />
+        <h6>&copy; All rights reserved to Defacto</h6>
+      </div>
+    </footer>
+
+    <!-- <footer class="bg-body-tertiary py-4 ">
+  <div class="container">
+    <div class="row align-items-center text-center d-flex ">
+
+      <div class="col-12 col-md-4 ">
+        <h4 class="fw-bold">Defacto</h4>
+      </div>
+
+    <div class="col-12 col-md-4">
+      <ul class="list-unstyled mb-0 d-flex flex-column align-items-center  justify-content-center">
+        <li ><a href="" class="text-dark fw-bold  text-decoration-none">About Us</a></li>
+        <li ><a href=""class="text-dark fw-bold  text-decoration-none" >Privacy Policy</a></li>
+        <li ><a href="" class="text-dark fw-bold  text-decoration-none">Terms And ondition</a></li>
+      </ul>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <ul class="d-flex gap-3 align-items-center justify-content-center">
+        <li><a href="#" class="fs-4 text-dark"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#" class="fs-4 text-dark"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li><a href="#" class="fs-4 text-dark"><i class="bi bi-twitter"></i></a>
+        </li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+      <p class="text-muted">© 2025 All rights reserved to Defacto</p>
+    </div>
+  </div>
+ 
+ </footer> -->
+
+    <script src="home.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+  </body>
+</html>

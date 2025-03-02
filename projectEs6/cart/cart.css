@@ -1,0 +1,45 @@
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+@font-face {
+    font-family: 'Pacifico' ;
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+.card-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    flex-direction: row;
+}
+.product {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 30rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+.card-items img {
+    width: 13rem;
+    height: 13rem;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  
+}
+.controls button{
+    outline-style: none;
+    border: none;
+    font-size: 2.5rem;
+    background-color: white;
+    color: brown;
+}
+span,p{
+    color: black;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,619 @@
+[
+    {
+      "id": 1,
+      "name": "Stylish Women's Dress",
+      "category": "Dresses",
+      "description": "A beautiful and stylish dress for any occasion.",
+      "price": 29.99,
+      "image": "../imgs/women/1.webp"
+    },
+    {
+      "id": 2,
+      "name": "Casual Summer Dress",
+      "category": "Dresses",
+      "description": "Lightweight and comfortable dress perfect for summer.",
+      "price": 29.99,
+      "image": "../imgs/women/1=1.webp"
+    },
+    {
+      "id": 3,
+      "name": "Elegant Evening Gown",
+      "category": "Gowns",
+      "description": "Perfect for formal events and special nights out.",
+      "price": 29.99,
+      "image": "../imgs/women/11.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Trendy Casual Outfit",
+      "category": "Casual Wear",
+      "description": "A trendy casual outfit for everyday wear.",
+      "price": 29.99,
+      "image": "../imgs/women/22.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Floral Print Dress",
+      "category": "Dresses",
+      "description": "A floral print dress for a fresh and vibrant look.",
+      "price": 29.99,
+      "image": "../imgs/women/55.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chic Women's Blouse",
+      "category": "Tops",
+      "description": "A stylish and chic blouse to pair with any outfit.",
+      "price": 29.99,
+      "image": "../imgs/women/66.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Casual Denim Jacket",
+      "category": "Jackets",
+      "description": "A comfortable denim jacket for casual outings.",
+      "price": 29.99,
+      "image": "../imgs/women/99.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Classic Black Dress",
+      "category": "Dresses",
+      "description": "A timeless black dress for any elegant occasion.",
+      "price": 29.99,
+      "image": "../imgs/women/1723639317ccf35b0a26c3b09d6bcb31c4b065654c_thumbnail_200x.webp"
+    },
+    {
+      "id": 9,
+      "name": "Boho Chic Dress",
+      "category": "Dresses",
+      "description": "A stylish boho-chic dress for a unique look.",
+      "price": 29.99,
+      "image": "../imgs/women/17304270674c6b1d52d7107e1a61020deed59defc1_thumbnail_200x.webp"
+    },
+    {
+      "id": 10,
+      "name": "Fashionable Party Dress",
+      "category": "Dresses",
+      "description": "A fashionable dress perfect for parties and celebrations.",
+      "price": 29.99,
+      "image": "../imgs/women/17315524728566542d4acda88bfdcd80032a63477f_thumbnail_600x.webp"
+    },
+    {
+      "id": 11,
+      "name": "Elegant Red Dress",
+      "category": "Dresses",
+      "description": "A stunning red dress for an eye-catching look.",
+      "price": 29.99,
+      "image": "../imgs/women/1732690797eeb9a07669dee7e2ee362a2d7b99ad8d_thumbnail_600x.webp"
+    },
+    {
+      "id": 12,
+      "name": "Comfy Lounge Wear",
+      "category": "Lounge Wear",
+      "description": "Soft and comfortable lounge wear for relaxation.",
+      "price": 29.99,
+      "image": "../imgs/women/download.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Casual Everyday T-Shirt",
+      "category": "Tops",
+      "description": "A simple and stylish t-shirt for daily wear.",
+      "price": 29.99,
+      "image": "../imgs/women/w1.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Summer Beach Dress",
+      "category": "Dresses",
+      "description": "A lightweight dress perfect for the beach.",
+      "price": 29.99,
+      "image": "../imgs/women/w2.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Winter Warm Sweater",
+      "category": "Sweaters",
+      "description": "A cozy sweater for the colder seasons.",
+      "price": 29.99,
+      "image": "../imgs/women/w3.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Sporty Activewear Set",
+      "category": "Activewear",
+      "description": "A stylish and comfortable activewear set.",
+      "price": 29.99,
+      "image": "../imgs/women/w4.jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Stylish Women's Dress",
+        "description": "Elegant and comfortable dress for any occasion.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w5.jpeg"
+      },
+      {
+        "id": 18,
+        "name": "Casual Summer Dress",
+        "description": "Lightweight and breathable summer dress.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w6.jpeg"
+      },
+      {
+        "id": 19,
+        "name": "Chic Floral Dress",
+        "description": "Floral print dress with a modern touch.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w7.jpeg"
+      },
+      {
+        "id": 20,
+        "name": "Classic Black Dress",
+        "description": "Timeless black dress for formal events.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w8.jpeg"
+      },
+      {
+        "id": 21,
+        "name": "Bohemian Style Dress",
+        "description": "Boho-chic dress with unique patterns.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w9.jpeg"
+      },
+      {
+        "id": 22,
+        "name": "Casual Denim Dress",
+        "description": "Stylish denim dress for daily wear.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w11.jpeg"
+      },
+      {
+        "id": 23,
+        "name": "Elegant Evening Gown",
+        "description": "Perfect gown for special occasions.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w12.jpeg"
+      },
+      {
+        "id": 24,
+        "name": "Vintage Inspired Dress",
+        "description": "Retro-style dress with a modern twist.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w14.jpeg"
+      },
+      {
+        "id": 25,
+        "name": "Comfortable Casual Dress",
+        "description": "Soft and comfy dress for everyday wear.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w15.jpeg"
+      },
+      {
+        "id": 26,
+        "name": "Trendy Midi Dress",
+        "description": "Fashionable midi dress for all seasons.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w16.jpeg"
+      },
+      {
+        "id": 27,
+        "name": "Casual Striped Dress",
+        "description": "Stylish striped dress for a relaxed look.",
+        "category": "clothes women",
+        "price": 29.99,
+        "image": "../imgs/women/w17.jpeg"
+      },
+      
+        {
+          "id": 28,
+          "name": "Women's Dress 1",
+          "description": "Stylish women's dress with a modern design.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w18.jpeg"
+        },
+        {
+          "id": 29,
+          "name": "Women's Dress 2",
+          "description": "Elegant and comfortable women's dress.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w19.jpeg"
+        },
+        {
+          "id": 30,
+          "name": "Women's Dress 3",
+          "description": "Chic and trendy dress for all occasions.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w20.jpeg"
+        },
+        {
+          "id": 31,
+          "name": "Women's Dress 4",
+          "description": "Casual and breathable fabric for daily wear.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w21.jpeg"
+        },
+        {
+          "id": 32,
+          "name": "Women's Dress 5",
+          "description": "Classic design with a modern twist.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w22.jpeg"
+        },
+        {
+          "id": 33,
+          "name": "Women's Dress 6",
+          "description": "Lightweight and fashionable dress.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w23.jpeg"
+        },
+        {
+          "id": 34,
+          "name": "Women's Dress 7",
+          "description": "Perfect dress for summer outings.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w24.jpeg"
+        },
+        {
+          "id": 35,
+          "name": "Women's Dress 8",
+          "description": "Soft fabric with a flattering fit.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w25.jpeg"
+        },
+        {
+          "id": 36,
+          "name": "Women's Dress 9",
+          "description": "Elegant evening dress for special occasions.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w26.jpeg"
+        },
+        {
+          "id": 37,
+          "name": "Women's Dress 10",
+          "description": "Casual yet stylish women's dress.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w27.jpeg"
+        },
+        {
+          "id": 28,
+          "name": "Women's Dress 11",
+          "description": "Comfortable and trendy dress.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w28.jpeg"
+        },
+        {
+          "id": 39,
+          "name": "Women's Dress 12",
+          "description": "Floral patterned dress for a chic look.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w29.jpeg"
+        },
+        {
+          "id": 40,
+          "name": "Women's Dress 13",
+          "description": "Elegant black dress with a sleek design.",
+          "category": "clothes",
+          "price": 29.99,
+          "image": "../imgs/women/w30.jpeg"
+        },
+        {
+            "id": 41,
+            "name": "Casual Dress",
+            "description": "A stylish and comfortable casual dress for everyday wear.",
+            "category": "clothes_women",
+            "price": 29.99,
+            "image": "../imgs/women/w31.jpeg"
+          },
+          {
+            "id": 42,
+            "name": "Elegant Dress",
+            "description": "An elegant dress perfect for formal occasions.",
+            "category": "clothes_women",
+            "price": 29.99,
+            "image": "../imgs/women/w33.jpeg"
+          },
+          {
+            "id": 43,
+            "name": "Men's Casual Shirt",
+            "image": "../imgs/men/1.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Stylish casual shirt made of high-quality fabric."
+          },
+          {
+            "id": 44,
+            "name": "Men's Denim Jacket",
+            "image": "../imgs/men/5.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Classic denim jacket perfect for all seasons."
+          },
+          {
+            "id": 45,
+            "name": "Men's Hoodie",
+            "image": "../imgs/men/7.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Comfortable and warm hoodie with a modern design."
+          },
+          {
+            "id": 46,
+            "name": "Men's Slim Fit Pants",
+            "image": "../imgs/men/8.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Slim fit pants for a stylish and modern look."
+          },
+          {
+            "id": 47,
+            "name": "Men's Casual T-shirt",
+            "image": "../imgs/men/9.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "High-quality cotton t-shirt with a comfortable fit."
+          },
+          {
+            "id": 48,
+            "name": "Men's Formal Shirt",
+            "image": "../imgs/men/10.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Perfect formal shirt for business meetings and occasions."
+          },
+          {
+            "id": 49,
+            "name": "Men's Polo Shirt",
+            "image": "../imgs/men/11.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Classic polo shirt with a soft cotton fabric."
+          },
+          {
+            "id": 50,
+            "name": "Men's Winter Coat",
+            "image": "../imgs/men/17352991428953a1a752359783eea6d361224993f8_thumbnail_600x.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Warm and stylish winter coat for cold weather."
+          },
+          {
+            "id": 51,
+            "name": "Men's Light Jacket",
+            "image": "../imgs/men/173771749485ad51037bb879f2ae881a9865e630f6_thumbnail_600x.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Lightweight jacket suitable for mild weather."
+          },
+          {
+            "id": 52,
+            "name": "Men's Cargo Pants",
+            "image": "../imgs/men/m2.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Durable cargo pants with multiple pockets."
+          },
+          {
+            "id": 53,
+            "name": "Men's Sweatshirt",
+            "image": "../imgs/men/m3.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Soft and comfortable sweatshirt for daily wear."
+          },
+          {
+            "id": 54,
+            "name": "Men's Tracksuit",
+            "image": "../imgs/men/m4.webp",
+            "price": 29.99,
+            "category": "Men Clothes",
+            "description": "Athletic tracksuit for sports and casual wear."
+          },
+          {
+            "id": 55,
+            "name": "Kids Casual Outfit",
+            "image": "../imgs/kide/1.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Comfortable and stylish casual outfit for kids."
+          },
+          {
+            "id": 56,
+            "name": "Kids Denim Jacket",
+            "image": "../imgs/kide/2.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Trendy denim jacket for kids, perfect for all seasons."
+          },
+          {
+            "id": 57,
+            "name": "Kids Hoodie",
+            "image": "../imgs/kide/3.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Warm and cozy hoodie for kids."
+          },
+          {
+            "id": 58,
+            "name": "Kids Sweatshirt",
+            "image": "../imgs/kide/4.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Soft and comfortable sweatshirt for kids."
+          },
+          {
+            "id": 59,
+            "name": "Kids T-Shirt",
+            "image": "../imgs/kide/5.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "High-quality cotton t-shirt with a playful design."
+          },
+          {
+            "id": 60,
+            "name": "Kids Winter Jacket",
+            "image": "../imgs/kide/6.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Warm winter jacket to keep kids cozy in cold weather."
+          },
+          {
+            "id": 61,
+            "name": "Kids Polo Shirt",
+            "image": "../imgs/kide/7.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Classic polo shirt with a stylish design."
+          },
+          {
+            "id": 62,
+            "name": "Kids Playwear Set",
+            "image": "../imgs/kide/8.webp",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "A comfortable and durable playwear set for kids."
+          },
+          {
+            "id": 63,
+            "name": "Kids Cartoon T-Shirt",
+            "image": "../imgs/kide/12.png",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "T-shirt with fun cartoon prints, perfect for kids."
+          },
+          {
+            "id": 64,
+            "name": "Kids Pajama Set",
+            "image": "../imgs/kide/13.png",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Soft and cozy pajama set for a good night's sleep."
+          },
+          {
+            "id": 65,
+            "name": "Kids Sport Tracksuit",
+            "image": "../imgs/kide/14.png",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Lightweight and breathable sports tracksuit."
+          },
+          {
+            "id": 66,
+            "name": "Kids Stylish Outfit",
+            "image": "../imgs/kide/15.png",
+            "price": 29.99,
+            "category": "Kids Clothes",
+            "description": "Trendy and stylish outfit for kids."
+          },
+          {
+            "id": 67,
+            "category": "Kitchen",
+            "description": "High-quality kitchen accessory",
+            "image": "../imgs/kitchen/16945899073dc772c3e57d853cf02d696072113df5_square_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 68,
+            "category": "Kitchen",
+            "description": "Durable and stylish kitchen tool",
+            "image": "../imgs/kitchen/1698743161e9ffc75906a232f15c356a2bfa004778_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 69,
+            "category": "Kitchen",
+            "description": "Essential kitchen gadget",
+            "image": "../imgs/kitchen/1701587280add32c95ebd0d6a90a098971f5a3fe67_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 70,
+            "category": "Kitchen",
+            "description": "Modern and sleek kitchen accessory",
+            "image": "../imgs/kitchen/1702275547124cda1146102748fac0570fc91a15bc_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 71,
+            "category": "Kitchen",
+            "description": "Versatile kitchen tool",
+            "image": "../imgs/kitchen/170433528620edcf6f4194a390d3d8e5d16a367500_square_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 72,
+            "category": "Kitchen",
+            "description": "Compact and efficient kitchen item",
+            "image": "../imgs/kitchen/1709007420e13825ee481a076300928ab263c8b8a6_square_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 73,
+            "category": "Kitchen",
+            "description": "High-performance kitchen gadget",
+            "image": "../imgs/kitchen/17092748752a1bfc03a7e22d199183d9bfd9bd47e3_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 74,
+            "category": "Kitchen",
+            "description": "Premium quality kitchen tool",
+            "image": "../imgs/kitchen/1710340784297b3cd83ef5c1177d1a9c6edf512aee_square_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 75,
+            "category": "Kitchen",
+            "description": "Essential for any modern kitchen",
+            "image": "../imgs/kitchen/1710384676021ef92feee235cadc30e06dc11de6a4_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 76,
+            "category": "Kitchen",
+            "description": "Top-rated kitchen accessory",
+            "image": "../imgs/kitchen/171876727846f6633f18df456f3cc3349a1d62810e_square_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 77,
+            "category": "Kitchen",
+            "description": "Sleek and modern kitchen gadget",
+            "image": "../imgs/kitchen/1715492886aab30eb6c9280f7974016ce2c87edf65_thumbnail_192x.webp",
+            "price": 29.99
+          },
+          {
+            "id": 78,
+            "category": "Kitchen",
+            "description": "Must-have kitchen essential",
+            "image": "../imgs/kitchen/17236079069ff0de5d262744ecd6bd66bd025657d9_square_thumbnail_192x.webp",
+            "price": 29.99
+          }
+  
+  ]
+  
+
+ 
